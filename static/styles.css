@@ -1,0 +1,130 @@
+/* static/styles.css */
+
+/* --- General & Container Styles --- */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 1rem;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    max-width: 1400px; /* Increased max-width for wider timetables */
+    margin: 1rem auto;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+/* --- Controls (Dropdown & Button) --- */
+.controls {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds space between items */
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px; /* Gave it a bit more width */
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* --- Timetable Display & Messages --- */
+#timetable-display {
+    margin-top: 1.5rem;
+    overflow-x: auto; /* Allows horizontal scrolling on small screens */
+}
+
+.error { color: #e74c3c; font-weight: bold; }
+.loading, .placeholder { color: #7f8c8d; font-style: italic; font-size: 1.2em; }
+
+
+/* --- Timetable Table Styles --- */
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px; /* Prevents squishing on medium screens */
+}
+
+.timetable th, .timetable td {
+    border: 1px solid #bdc3c7;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle; /* Centered content vertically */
+    height: 70px; /* Gives cells a uniform height */
+}
+
+.timetable thead th {
+    background-color: #34495e;
+    color: white;
+    font-weight: bold;
+    position: sticky; /* Makes header stick when scrolling vertically */
+    top: 0;
+}
+
+.timetable .time-slot {
+    background-color: #ecf0f1;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Style for cells containing a class */
+.timetable td .class-subject {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.timetable td .class-division {
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+/* NEW: Style for free slots */
+.timetable .free-slot {
+    color: #95a5a6;
+    font-size: 0.9em;
+    font-style: italic;
+    background-color: #fafafa;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #7f8c8d;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Timetable Viewer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Ultimate Timetable Viewer 🚀</h1>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="mode-select">Select View Mode:</label>
+                <select id="mode-select">
+                    <option value="">-- Select Mode --</option>
+                    <option value="day">Day View</option>
+                    <option value="classroom">Classroom View</option>
+                    <option value="subject">Subject View</option>
+                </select>
+            </div>
+
+            <div id="day-selector-container" class="control-group" style="display:none;">
+                <label for="day-select">Select a Day:</label>
+                <select id="day-select">
+                    <option value="">-- Choose Day --</option>
+                    {% for day in days %}
+                        <option value="{{ day }}">{{ day }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div id="classroom-selector-container" class="control-group" style="display:none;">
+                <label for="classroom-select">Select a Classroom:</label>
+                <select id="classroom-select">
+                    <option value="">-- Choose Classroom --</option>
+                    {% for room in rooms %}
+                        <option value="{{ room }}">{{ room }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div id="subject-selector-container" class="control-group" style="display:none;">
+                <label for="subject-select">Select a Subject:</label>
+                <select id="subject-select">
+                    <option value="">-- Choose Subject --</option>
+                    {% for subject in subjects %}
+                        <option value="{{ subject }}">{{ subject }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="control-group">
+                 <button id="show-schedule-btn">Show Schedule</button>
+            </div>
+        </div>
+        
+        <div id="timetable-display"></div>
+        
+    </div>
+
+    <footer>
+        <p>Created by [Rushikesh EE] 🧑‍💻</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+Subject,Teacher,Division,Day,Time,Room
+MAC,Neeta Shinde,Division 1,Monday,01:30-02:30,NC01
+MAC,Neeta Shinde,Division 1,Tuesday,03:30-04:30,NC01
+MAC,Yogita Mahatekar,Division 2,Monday,01:30-02:30,NC02
+MAC,Yogita Mahatekar,Division 2,Tuesday,03:30-04:30,NC02
+MAC,Aman Jhinga,Division 3,Monday,01:30-02:30,NC03
+MAC,Aman Jhinga,Division 3,Tuesday,03:30-04:30,NC03
+MAC,Jishu Das,Division 4,Monday,01:30-02:30,NC04
+MAC,Jishu Das,Division 4,Tuesday,03:30-04:30,NC04
+MAC,Kiran Dalvi,Division 5,Friday,02:30-03:30,NC14
+MAC,Kiran Dalvi,Division 5,Wednesday,10:30-11:30,NC01
+MAC,Neeta Shinde,Division 6,Tuesday,02:30-03:30,NC02
+MAC,Neeta Shinde,Division 6,Wednesday,10:30-11:30,NC02
+MAC,Yogita Mahatekar,Division 7,Tuesday,02:30-03:30,NC03
+MAC,Yogita Mahatekar,Division 7,Wednesday,10:30-11:30,NC03
+MAC,Aman Jhinga,Division 8,Tuesday,02:30-03:30,NC04
+MAC,Aman Jhinga,Division 8,Wednesday,10:30-11:30,NC04
+MAC,Ahilya Dhere,Division 9,Tuesday,02:30-03:30,NC08
+MAC,Ahilya Dhere,Division 9,Wednesday,10:30-11:30,NC08
+Linear Algebra,Deepak Bakal,Division 1,Tuesday,08:30-09:30,NC12
+Linear Algebra,Deepak Bakal,Division 1,Friday,08:30-09:30,NC12
+Linear Algebra,Rashmi Kulkarni,Division 2,Monday,01:30-02:30,NC08
+Linear Algebra,Rashmi Kulkarni,Division 2,Tuesday,03:30-04:30,NC08
+Linear Algebra,Deepak Bakal,Division 3,Monday,01:30-02:30,NC11
+Linear Algebra,Deepak Bakal,Division 3,Tuesday,03:30-04:30,NC11
+Linear Algebra,Jishu Das,Division 4,Tuesday,02:30-03:30,NC14
+Linear Algebra,Jishu Das,Division 4,Wednesday,10:30-11:30,NC14
+Linear Algebra,Sohan Barkale,Division 5,Tuesday,02:30-03:30,NC11
+Linear Algebra,Sohan Barkale,Division 5,Wednesday,10:30-11:30,NC11
+Linear Algebra,Deepak Bakal,Division 6,Tuesday,02:30-03:30,NC12
+Linear Algebra,Deepak Bakal,Division 6,Wednesday,10:30-11:30,NC12
+Linear Algebra,Rashmi Kulkarni,Division 7,Tuesday,02:30-03:30,NC13
+Linear Algebra,Rashmi Kulkarni,Division 7,Wednesday,10:30-11:30,NC13
+Engg  Physics,Vivek C. Mandake,Division 1,Thursday,09:30-10:30,NC01
+Engg  Physics,Vivek C. Mandake,Division 1,Monday,02:30-03:30,NC01
+Engg  Physics,Neelima A. Patil,Division 2,Thursday,09:30-10:30,NC02
+Engg  Physics,Neelima A. Patil,Division 2,Monday,02:30-03:30,NC02
+Engg  Physics,Shweta N. Chaure,Division 3,Thursday,09:30-10:30,NC04
+Engg  Physics,Shweta N. Chaure,Division 3,Monday,02:30-03:30,NC04
+Engg  Physics,Jagdish W. Dadge,Division 4,Thursday,09:30-10:30,NC08
+Engg  Physics,Jagdish W. Dadge,Division 4,Monday,02:30-03:30,NC08
+Engg  Physics,Yogita S. Patil,Division 5,Wednesday,11:30-12:30,NC01
+Engg  Physics,Yogita S. Patil,Division 5,Monday,11:30-12:30,NC01
+Engg  Physics,Yatin J. Pitkar,Division 6,Wednesday,11:30-12:30,NC02
+Engg  Physics,Yatin J. Pitkar,Division 6,Monday,11:30-12:30,NC02
+Engg  Physics,Rohini S. Chhatrala,Division 7,Wednesday,11:30-12:30,NC03
+Engg  Physics,Rohini S. Chhatrala,Division 7,Monday,11:30-12:30,NC03
+Engg  Physics,Jagdish W. Dadge,Division 8,Wednesday,11:30-12:30,NC04
+Engg  Physics,Jagdish W. Dadge,Division 8,Monday,11:30-12:30,NC04
+Engg Chem,Nandini Iyer,Division 1,Thursday,09:30-10:30,NC11
+Engg Chem,Nandini Iyer,Division 1,Monday,02:30-03:30,NC11
+Engg Chem,Kavita Suranje,Division 2,Thursday,09:30-10:30,NC12
+Engg Chem,Kavita Suranje,Division 2,Monday,02:30-03:30,NC12
+Engg Chem,Reshma Bhosale,Division 3,Thursday,09:30-10:30,NC13
+Engg Chem,Reshma Bhosale,Division 3,Monday,02:30-03:30,NC13
+Engg Chem,Deepika Agarwal,Division 4,Thursday,09:30-10:30,NC14
+Engg Chem,Deepika Agarwal,Division 4,Monday,02:30-03:30,NC14
+Engg Chem,Deepika Agarwal,Division 5,Wednesday,11:30-12:30,NC11
+Engg Chem,Deepika Agarwal,Division 5,Monday,11:30-12:30,NC11
+Engg Chem,Shubhangi Karadkar,Division 6,Wednesday,11:30-12:30,NC12
+Engg Chem,Shubhangi Karadkar,Division 6,Monday,11:30-12:30,NC12
+Engg Chem,Reshma Bhosale,Division 7,Wednesday,11:30-12:30,NC13
+Engg Chem,Reshma Bhosale,Division 7,Monday,11:30-12:30,NC13
+Engg Chem,Nandini Iyer,Division 8,Wednesday,11:30-12:30,NC14
+Engg Chem,Nandini Iyer,Division 8,Monday,11:30-12:30,NC14
+Electromagnetism,Shweta N. Chaure,Division 1,Monday,08:30-09:30,NC01
+Electromagnetism,Shweta N. Chaure,Division 1,Thursday,04:30-05:30,NC01
+Electromagnetism,Vivek C. Mandake,Division 2,Wednesday,02:30-03:30,NC01
+Electromagnetism,Vivek C. Mandake,Division 2,Wednesday,05:30-06:30,NC01
+Electromagnetism,Shweta N. Chaure,Division 3,Wednesday,02:30-03:30,NC02
+Electromagnetism,Shweta N. Chaure,Division 3,Wednesday,05:30-06:30,NC02
+Solid State Physics,Neelima A. Patil,Division 1,Monday,08:30-09:30,NC04
+Solid State Physics,Neelima A. Patil,Division 1,Thursday,04:30-05:30,NC04
+Solid State Physics,Neelima A. Patil,Division 2,Wednesday,02:30-03:30,NC03
+Solid State Physics,Neelima A. Patil,Division 2,Wednesday,05:30-06:30,NC03
+Statistical Thermo,Rohini S. Chhatrala,Division 1,Monday,08:30-09:30,NC08
+Statistical Thermo,Rohini S. Chhatrala,Division 1,Thursday,04:30-05:30,NC08
+Statistical Thermo,Rohini S. Chhatrala,Division 2,Wednesday,02:30-03:30,NC04
+Statistical Thermo,Rohini S. Chhatrala,Division 2,Wednesday,05:30-06:30,NC04
+Bio For Engineers,Mahesh Shindikar,Division 1,Monday,08:30-09:30,NC11
+Bio For Engineers,Mahesh Shindikar,Division 1,Thursday,04:30-05:30,NC02
+Bio For Engineers,Mahesh Shindikar,Division 2,Wednesday,02:30-03:30,NC08
+Bio For Engineers,Mahesh Shindikar,Division 2,Wednesday,05:30-06:30,NC08
+Emerging Tech in Energy Storage,Kavita Suranje,Division 1,Monday,08:30-09:30,NC12
+Emerging Tech in Energy Storage,Kavita Suranje,Division 1,Thursday,04:30-05:30,NC12
+Emerging Tech in Energy Storage,Kavita Suranje,Division 2,Wednesday,02:30-03:30,NC11
+Emerging Tech in Energy Storage,Kavita Suranje,Division 2,Wednesday,05:30-06:30,NC11
+Nanomaterials,Shubhangi Karadkar,Division 1,Monday,08:30-09:30,NC14
+Nanomaterials,Shubhangi Karadkar,Division 1,Thursday,04:30-05:30,NC03
+Nanomaterials,Shubhangi Karadkar,Division 2,Wednesday,02:30-03:30,NC12
+Nanomaterials,Shubhangi Karadkar,Division 2,Wednesday,05:30-06:30,NC12
+Fundamentals Of Quantum Physics,Yogita S. Patil,Division 1,Monday,08:30-09:30,NC09
+Fundamentals Of Quantum Physics,Yogita S. Patil,Division 1,Thursday,04:30-05:30,NC07
+Fundamentals Of Quantum Physics,Yatin J. Pitkar,Division 2,Monday,08:30-09:30,NC10
+Fundamentals Of Quantum Physics,Yatin J. Pitkar,Division 2,Thursday,04:30-05:30,NC13
+Fundamentals Of Quantum Physics,Yogita S. Patil,Division 3,Wednesday,02:30-03:30,NC14
+Fundamentals Of Quantum Physics,Yogita S. Patil,Division 3,Wednesday,05:30-06:30,NC14
+Fundamentals Of Quantum Physics,Yatin J. Pitkar,Division 4,Wednesday,02:30-03:30,NC09
+Fundamentals Of Quantum Physics,Yatin J. Pitkar,Division 4,Wednesday,05:30-06:30,NC09
+ECE-Essentials of Civil Engineering,S. M. Nawghare,Division 1,Monday,09:30-10:30,NC01
+ECE-Essentials of Civil Engineering,S. M. Nawghare,Division 1,Thursday,02:30-03:30,NC01
+ECE-Essentials of Civil Engineering,Anupama Athawale,Division 2,Monday,10:30-11:30,NC01
+ECE-Essentials of Civil Engineering,Anupama Athawale,Division 2,Tuesday,11:30-12:30,NC01
+BCE- Basics Of Civil Engineering,Rohit D. Mangalekar,Division 1,Thursday,12:30-01:30,NC01
+BCE- Basics Of Civil Engineering,Rohit D. Mangalekar,Division 1,Friday,01:30-02:30,NC01
+BCE- Basics Of Civil Engineering,Rohit D. Mangalekar,Division 1,Friday,03:30-04:30,NC01
+AM- Applied Mech,Aniket R. Tikde,Division 1,Wednesday,09:30-10:30,NC01
+AM- Applied Mech,Aniket R. Tikde,Division 1,Thursday,08:30-09:30,NC01
+AM- Applied Mech,Prajakta S. Shete,Division 2,Tuesday,01:30-02:30,NC01
+AM- Applied Mech,Prajakta S. Shete,Division 2,Wednesday,01:30-02:30,NC01
+FAI- Fundamentals of Ai,Sneha Chavan,Division 1,Monday,09:30-10:30,NC02
+FAI- Fundamentals of Ai,Sneha Chavan,Division 1,Thursday,02:30-03:30,NC02
+FAI- Fundamentals of Ai,Swati Atone,Division 2,Monday,09:30-10:30,NC03
+FAI- Fundamentals of Ai,Swati Atone,Division 2,Thursday,02:30-03:30,NC03
+FAI- Fundamentals of Ai,Manish Gaikwad,Division 3,Monday,10:30-11:30,NC09
+FAI- Fundamentals of Ai,Manish Gaikwad,Division 3,Tuesday,11:30-12:30,NC09
+FAI- Fundamentals of Ai,Pranoti Patil,Division 4,Monday,10:30-11:30,NC10
+FAI- Fundamentals of Ai,Pranoti Patil,Division 4,Tuesday,11:30-12:30,NC10
+AIMA- AI for Multi. Application,Akanksha Mudhe,Division 1,Wednesday,08:30-09:30,NC01
+AIMA- AI for Multi. Application,Akanksha Mudhe,Division 1,Friday,09:30-10:30,NC01
+AIMA- AI for Multi. Application,Akanksha Mudhe,Division 1,Wednesday,03:30-04:30,NC01
+AIMA- AI for Multi. Application,Pranoti Patil,Division 2,Tuesday,10:30-11:30,NC11
+AIMA- AI for Multi. Application,Pranoti Patil,Division 2,Monday,05:30-06:30,NC11
+AIMA- AI for Multi. Application,Pranoti Patil,Division 2,Friday,04:30-05:30,NC11
+AIMA- AI for Multi. Application,Riti Thakor,Division 3,Tuesday,10:30-11:30,NC08
+AIMA- AI for Multi. Application,Riti Thakor,Division 3,Monday,05:30-06:30,NC10
+AIMA- AI for Multi. Application,Riti Thakor,Division 3,Friday,04:30-05:30,NC08
+FCS- Fundamentals of Cyber Security,Riti Thakor,Division 1,Wednesday,09:30-10:30,NC02
+FCS- Fundamentals of Cyber Security,Riti Thakor,Division 1,Thursday,08:30-09:30,NC02
+FCS- Fundamentals of Cyber Security,Akanksha Mudhe,Division 2,Tuesday,01:30-02:30,NC09
+FCS- Fundamentals of Cyber Security,Akanksha Mudhe,Division 2,Wednesday,01:30-02:30,NC09
+FEE- fundamentals OF Electrical Engineering,Vinodini Bhole,Division 1,Monday,09:30-10:30,NC04
+FEE- fundamentals OF Electrical Engineering,Vinodini Bhole,Division 1,Thursday,02:30-03:30,NC04
+FEE- fundamentals OF Electrical Engineering,Snehal Unde,Division 2,Tuesday,11:30-12:30,NC04
+FEE- fundamentals OF Electrical Engineering,Snehal Unde,Division 2,Monday,10:30-11:30,NC04
+EEU- Electrical Energy Untilization ,Anurag Mohan,Division 1,Thursday,12:30-01:30,NC02
+EEU- Electrical Energy Untilization ,Anurag Mohan,Division 1,Friday,01:30-02:30,NC02
+EEU- Electrical Energy Untilization ,Anurag Mohan,Division 1,Friday,03:30-04:30,NC02
+BEE- Basic Electrical Engg,Gauri Bendale,Division 1,Wednesday,09:30-10:30,NC04
+BEE- Basic Electrical Engg,Gauri Bendale,Division 1,Thursday,08:30-09:30,NC04
+BEE- Basic Electrical Engg,Renu Saxena,Division 2,Tuesday,01:30-02:30,NC04
+BEE- Basic Electrical Engg,Renu Saxena,Division 2,Wednesday,01:30-02:30,NC04
+EEE- Elements of Electronics Engg,P. P. Bartakke,Division 1,Tuesday,11:30-12:30,NC08
+EEE- Elements of Electronics Engg,P. P. Bartakke,Division 1,Monday,10:30-11:30,NC08
+EEE- Elements of Electronics Engg,A. A. Kulkarni,Division 2,Tuesday,11:30-12:30,NC11
+EEE- Elements of Electronics Engg,A. A. Kulkarni,Division 2,Monday,10:30-11:30,NC11
+AEIoT- Applied Electronics And IoT,Kapila,Division 1,Wednesday,08:30-09:30,NC02
+AEIoT- Applied Electronics And IoT,Kapila,Division 1,Friday,09:30-10:30,NC02
+AEIoT- Applied Electronics And IoT,Kapila,Division 1,Wednesday,03:30-04:30,NC02
+AEIoT- Applied Electronics And IoT,Vaidehi,Division 2,Wednesday,08:30-09:30,NC04
+AEIoT- Applied Electronics And IoT,Vaidehi,Division 2,Friday,09:30-10:30,NC04
+AEIoT- Applied Electronics And IoT,Vaidehi,Division 2,Wednesday,03:30-04:30,NC04
+AEIoT- Applied Electronics And IoT,Vaidehi,Division 3,Tuesday,10:30-11:30,NC12
+AEIoT- Applied Electronics And IoT,Vaidehi,Division 3,Monday,05:30-06:30,NC12
+AEIoT- Applied Electronics And IoT,Vaidehi,Division 3,Friday,04:30-05:30,NC12
+AEIoT- Applied Electronics And IoT,Shripad Kulkarni,Division 4,Tuesday,10:30-11:30,NC13
+AEIoT- Applied Electronics And IoT,Shripad Kulkarni,Division 4,Monday,05:30-06:30,NC13
+AEIoT- Applied Electronics And IoT,Shripad Kulkarni,Division 4,Friday,04:30-05:30,NC13
+AEIoT- Applied Electronics And IoT,M. G. Pallewar,Division 5,Tuesday,10:30-11:30,NC14
+AEIoT- Applied Electronics And IoT,M. G. Pallewar,Division 5,Monday,05:30-06:30,NC14
+AEIoT- Applied Electronics And IoT,M. G. Pallewar,Division 5,Friday,04:30-05:30,NC14
+DLD- Digital Logic Design,Y. D. Kapse,Division 1,Wednesday,09:30-10:30,NC12
+DLD- Digital Logic Design,Y. D. Kapse,Division 1,Thursday,08:30-09:30,NC12
+DLD- Digital Logic Design,Kapila,Division 2,Wednesday,09:30-10:30,NC14
+DLD- Digital Logic Design,Kapila,Division 2,Thursday,08:30-09:30,NC14
+DLD- Digital Logic Design,S. V. Kulkarni,Division 3,Tuesday,01:30-02:30,NC08
+DLD- Digital Logic Design,S. V. Kulkarni,Division 3,Wednesday,01:30-02:30,NC08
+DLD- Digital Logic Design,P. V. Chavan,Division 4,Tuesday,01:30-02:30,NC11
+DLD- Digital Logic Design,P. V. Chavan,Division 4,Wednesday,01:30-02:30,NC11
+DLD- Digital Logic Design,Kapila,Division 5,Tuesday,01:30-02:30,NC12
+DLD- Digital Logic Design,Kapila,Division 5,Wednesday,01:30-02:30,NC12
+FMATSIM- Funda. of MATLAB,Amruta Deshpande,Division 1,Tuesday,11:30-12:30,NC12
+FMATSIM- Funda. of MATLAB,Amruta Deshpande,Division 1,Monday,10:30-11:30,NC12
+FMS- Funda. Of measurement and sensor,Sayali Bindu,Division 1,Thursday,12:30-01:30,NC03
+FMS- Funda. Of measurement and sensor,Sayali Bindu,Division 1,Friday,01:30-02:30,NC03
+FMS- Funda. Of measurement and sensor,Sayali Bindu,Division 1,Friday,03:30-04:30,NC03
+SME- System in Mech Engg,S. S. Pardeshi,Division 1,Thursday,02:30-03:30,NC08
+SME- System in Mech Engg,S. S. Pardeshi,Division 1,Monday,09:30-10:30,NC08
+SME- System in Mech Engg,S. B. Patil,Division 2,Tuesday,11:30-12:30,NC13
+SME- System in Mech Engg,S. B. Patil,Division 2,Monday,10:30-11:30,NC13
+FME- Foundations in Mech Engg,S. V. Wagh,Division 1,Wednesday,08:30-09:30,NC13
+FME- Foundations in Mech Engg,S. V. Wagh,Division 1,Friday,09:30-10:30,NC13
+FME- Foundations in Mech Engg,S. V. Wagh,Division 1,Wednesday,03:30-04:30,NC13
+FME- Foundations in Mech Engg,S. V. Wagh,Division 2,Tuesday,10:30-11:30,NC09
+FME- Foundations in Mech Engg,S. V. Wagh,Division 2,Monday,05:30-06:30,NC09
+FME- Foundations in Mech Engg,S. V. Wagh,Division 2,Friday,03:30-04:30,NC14
+EG- Engineering Graphics,N. P. Dale,Division 1,Wednesday,09:30-10:30,NC08
+EG- Engineering Graphics,N. P. Dale,Division 1,Thursday,08:30-09:30,
+EG- Engineering Graphics,N. D. Dhote,Division 2,Tuesday,01:30-02:30,NC03
+EG- Engineering Graphics,N. D. Dhote,Division 2,Wednesday,01:30-02:30,NC03
+SPM- Structure amd Properties of Materials,A. N. Shinde,Division 1,Thursday,02:30-03:30,NC11
+SPM- Structure amd Properties of Materials,A. N. Shinde,Division 1,Monday,09:30-10:30,NC11
+NM- Nano Materials,M. R. Mulay,Division 1,Thursday,12:30-01:30,NC04
+NM- Nano Materials,M. R. Mulay,Division 1,Friday,01:30-02:30,NC04
+NM- Nano Materials,M. R. Mulay,Division 1,Friday,03:30-04:30,NC04
+FCE- Funda. Of Corrosion Engg,R. D. Gadve,Division 1,Wednesday,09:30-10:30,NC11
+FCE- Funda. Of Corrosion Engg,R. D. Gadve,Division 1,Thursday,09:30-10:30,NC09
+FCE- Funda. Of Corrosion Engg,R. D. Gadve,Division 2,Tuesday,01:30-02:30,NC13
+FCE- Funda. Of Corrosion Engg,R. D. Gadve,Division 2,Wednesday,01:30-02:30,NC13
+DTIL- Design Thunking and Idea Lab,M. M. Sanas,Division 1,Thursday,02:30-03:30,NC12
+DTIL- Design Thunking and Idea Lab,M. M. Sanas,Division 1,Monday,09:30-10:30,NC12
+BMT- Basics of Manu. Tech,H. K. Jadhav & A. D. Dange,Division 1,Thursday,12:30-01:30,NC08
+BMT- Basics of Manu. Tech,H. K. Jadhav & A. D. Dange,Division 1,Friday,01:30-02:30,NC08
+BMT- Basics of Manu. Tech,H. K. Jadhav & A. D. Dange,Division 1,Friday,03:30-04:30,NC08
+PPP- Product Proto. Practices,R. V. Zende,Division 1,Wednesday,09:30-10:30,NC13
+PPP- Product Proto. Practices,R. V. Zende,Division 1,Thursday,08:30-09:30,NC10
+PPP- Product Proto. Practices,S. N. Patil,Division 2,Tuesday,01:30-02:30,NC14
+PPP- Product Proto. Practices,S. N. Patil,Division 2,Wednesday,01:30-02:30,NC14
+GE- Geomatic Engg,Anupama Athawale,Division 1,Thursday,05:30-06:30,NC01
+FCP- Funda. Of Constructive Practices,Rohit D. Mangalekar,Division 1,Thursday,05:30-06:30,NC02
+PPS- Programming For Problem Solving,Ashwini Choudhari,Division 1,Thursday,05:30-06:30,NC09
+PPS- Programming For Problem Solving,Ashwini Choudhari,Division 2,Thursday,05:30-06:30,NC09
+PPS- Programming For Problem Solving,Sneha Chavan,Division 3,Thursday,05:30-06:30,NC03
+WD- Web Designing,Manish Gaikwad,Division 1,Thursday,05:30-06:30,NC04
+PP- Python Programming,Vaishali Kosamkar,Division 1,Thursday,05:30-06:30,NC10
+PP- Python Programming,Vaishali Kosamkar,Division 2,Thursday,05:30-06:30,NC10
+PP- Python Programming,Padmashree Shedbalkar,Division 3,Thursday,05:30-06:30,NC08
+EMS- Electrical Maintainance and Safety,Nidhi Mishra,Division 1,Thursday,05:30-06:30,NC11
+FPLC- Funda. Of PLC,Meera Khandekar,Division 1,Thursday,05:30-06:30,NC12
+CAD- Computer Aided Drafting,N. D. Dhote,Division 1,Thursday,05:30-06:30,NC13
+EVA- EV Archi.,C. V. Desai,Division 1,Thursday,05:30-06:30,NC07
+MPFL- Manufacturing Practices and Fab Lab,A. B. Londhe,Division 1,Thursday,05:30-06:30,NC14
+"RDOS- Robotics, Drone",M. D. Jaybhaye,Division 1,Thursday,05:30-06:30,NC06
+CS- Communication Skills,Dr. Amol Jadhav,Division 1- Civil 2,Thursday,10:30-11:30,NC10
+CS- Communication Skills,Dr. Amol Jadhav,Division 1- Civil 2,Thursday,11:30-12:30,NC10
+CS- Communication Skills,Dr. Amol Jadhav,Division 2- Comp 4,Wednesday,01:30-02:30,NC07
+CS- Communication Skills,Dr. Amol Jadhav,Division 2- Comp 4,Wednesday,02:30-03:30,NC07
+CS- Communication Skills,Dr. Neha Shroff,Division 2- Comp 5,Wednesday,01:30-02:30,NC10
+CS- Communication Skills,Dr. Neha Shroff,Division 2- Comp 5,Wednesday,02:30-03:30,NC10
+CS- Communication Skills,Dr. Neha Shroff,Division 3- Mech 8,Wednesday,10:30-11:30,NC09
+CS- Communication Skills,Dr. Neha Shroff,Division 3- Mech 8,Wednesday,11:30-12:30,NC09
+CS- Communication Skills,Dr. Neha Shroff,Division 4- Mech 8,Wednesday,10:30-11:30,NC09
+CS- Communication Skills,Dr. Neha Shroff,Division 4- Mech 8,Wednesday,11:30-12:30,NC09
+CS- Communication Skills,Dr. Amol Jadhav,Division 4- Mech 9,Wednesday,10:30-11:30,NC10
+CS- Communication Skills,Dr. Amol Jadhav,Division 4- Mech 9,Wednesday,11:30-12:30,NC10
+CS- Communication Skills,Dr. Neha Shroff,Division 4- Meta 10,Tuesday,10:30-11:30,NC03
+CS- Communication Skills,Dr. Neha Shroff,Division 4- Meta 10,Tuesday,11:30-12:30,NC03
+CS- Communication Skills,Dr. Amol Jadhav,Division 5- AIML 11,Tuesday,03:30-04:30,NC07
+CS- Communication Skills,Dr. Amol Jadhav,Division 5- AIML 11,Tuesday,04:30-05:30,NC07
+CS- Communication Skills,Dr. Avinash K,Division 5- AIML 12,Tuesday,03:30-04:30,NC14
+CS- Communication Skills,Dr. Avinash K,Division 5- AIML 12,Tuesday,04:30-05:30,NC14
+CS- Communication Skills,Meghna Mane,Division 5- Civil 13,Wednesday,03:30-04:30,NC10
+CS- Communication Skills,Meghna Mane,Division 5- Civil 13,Wednesday,04:30-05:30,NC10
+CS- Communication Skills,Dr. Neha Shroff,Division 6- Comp 15,Monday,03:30-04:30,NC07
+CS- Communication Skills,Dr. Neha Shroff,Division 6- Comp 15,Monday,04:30-05:30,NC07
+CS- Communication Skills,Meghna Mane,Division 6- Comp 16,Monday,03:30-04:30,NC14
+CS- Communication Skills,Meghna Mane,Division 6- Comp 16,Monday,04:30-05:30,NC14
+CS- Communication Skills,Dr. Amol Jadhav,Division 7- E&TC 18,Thursday,03:30-04:30,NC11
+CS- Communication Skills,Dr. Amol Jadhav,Division 7- E&TC 18,Thursday,04:30-05:30,NC11
+CS- Communication Skills,Dr. Avinash K,Division 7- E&TC 19,Thursday,03:30-04:30,NC14
+CS- Communication Skills,Dr. Avinash K,Division 7- E&TC 19,Thursday,04:30-05:30,NC14
+PD- Personality Development,,Division 1-1st and 3rd Sat,Saturday,09:30-10:30,NC01
+PD- Personality Development,,Division 1-1st and 3rd Sat,Saturday,10:30-11:30,NC01
+PD- Personality Development,,Division 2-1st and 3rd Sat,Saturday,09:30-10:30,NC02
+PD- Personality Development,,Division 2-1st and 3rd Sat,Saturday,10:30-11:30,NC02
+PD- Personality Development,,Division 3-1st and 3rd Sat,Saturday,09:30-10:30,NC03
+PD- Personality Development,,Division 3-1st and 3rd Sat,Saturday,10:30-11:30,NC03
+PD- Personality Development,,Division 4-1st and 3rd Sat,Saturday,09:30-10:30,NC04
+PD- Personality Development,,Division 4-1st and 3rd Sat,Saturday,10:30-11:30,NC04
+PD- Personality Development,,Division 5-(1st&3rd- 11am/ 2nd&4th- 10:45am),Saturday,10:30-11:30,NC01
+PD- Personality Development,,Division 5-(1st&3rd- 11am/ 2nd&4th- 10:45am),Saturday,11:30-12:30,NC01
+PD- Personality Development,,Division 6-(1st&3rd- 11am/ 2nd&4th- 10:45am),Saturday,10:30-11:30,NC02
+PD- Personality Development,,Division 6-(1st&3rd- 11am/ 2nd&4th- 10:45am),Saturday,11:30-12:30,NC02
+PD- Personality Development,,Division 7-(1st&3rd- 11am/ 2nd&4th- 10:45am),Saturday,10:30-11:30,NC03
+PD- Personality Development,,Division 7-(1st&3rd- 11am/ 2nd&4th- 10:45am),Saturday,11:30-12:30,NC03
+PD- Personality Development,,Division 8-(1st&3rd- 11am/ 2nd&4th- 10:45am),Saturday,10:30-11:30,NC04
+PD- Personality Development,,Division 8-(1st&3rd- 11am/ 2nd&4th- 10:45am),Saturday,11:30-12:30,NC04
+PD- Personality Development,,Division 1-2nd & 4th Sat (Till 10:30),Saturday,08:30-09:30,NC01
+PD- Personality Development,,Division 2-2nd & 4th Sat (Till 10:30),Saturday,08:30-09:30,NC02
+PD- Personality Development,,Division 3-2nd & 4th Sat (Till 10:30),Saturday,08:30-09:30,NC03
+PD- Personality Development,,Division 4-2nd & 4th Sat (Till 10:30),Saturday,08:30-09:30,NC04
+Tut-MAC,Ahilya Dhere,Division 1-Batch 1,Tuesday,09:30-10:30,NC01
+Tut-MAC,Aman Jhinga,Division 1-Batch 2,Friday,02:30-03:30,NC01
+Tut-MAC,Ahilya Dhere,Division 1-Batch 3,Saturday,03:30-04:30,NC01
+Tut-MAC,Neeta Shinde,Division 1-Batch 4,Thursday,03:30-04:30,NC01
+Tut-MAC,Neeta Shinde,Division 2-Batch 1,Tuesday,09:30-10:30,NC02
+Tut-MAC,Jishu Das,Division 2-Batch 2,Friday,08:30-09:30,NC02
+Tut-MAC,Aman Jhinga,Division 2-Batch 3,Monday,03:30-04:30,NC02
+Tut-MAC,Aman Jhinga,Division 2-Batch 4,Thursday,03:30-04:30,NC02
+Tut-MAC,Aman Jhinga,Division 3-Batch 1,Wednesday,09:30-10:30,NC03
+Tut-MAC,Neeta Shinde,Division 3-Batch 2,Friday,02:30-03:30,NC03
+Tut-MAC,Neeta Shinde,Division 3-Batch 3,Monday,03:30-04:30,NC03
+Tut-MAC,Yogita Mahatekar,Division 3-Batch 4,Thursday,03:30-04:30,NC03
+Tut-MAC,Aman Jhinga,Division 4-Batch 1,Tuesday,09:30-10:30,NC04
+Tut-MAC,Yogita Mahatekar,Division 4-Batch 2,Friday,02:30-03:30,NC04
+Tut-MAC,Ahilya Dhere,Division 4-Batch 3,Monday,03:30-04:30,NC04
+Tut-MAC,Jishu Das,Division 4-Batch 4,Thursday,03:30-04:30,NC04
+Tut-MAC,Aman Jhinga,Division 5-Batch 1,Thursday,10:30-11:30,NC01
+Tut-MAC,Jishu Das,Division 5-Batch 2,Friday,10:30-11:30,NC01
+Tut-MAC,Ahilya Dhere,Division 5-Batch 3,Saturday,12:30-01:30,NC01
+Tut-MAC,Ahilya Dhere,Division 5-Batch 3,Saturday,01:30-02:30,NC01
+Tut-MAC,Yogita Mahatekar,Division 5-Batch 4,Friday,11:30-12:30,NC01
+Tut-MAC,Neeta Shinde,Division 6-Batch 1,Thursday,10:30-11:30,NC02
+Tut-MAC,Ahilya Dhere,Division 6-Batch 2,Friday,10:30-11:30,NC02
+Tut-MAC,Deepak Bakal,Division 6-Batch 3,Saturday,12:30-01:30,NC02
+Tut-MAC,Deepak Bakal,Division 6-Batch 3,Saturday,01:30-02:30,NC02
+Tut-MAC,Jishu Das,Division 6-Batch 4,Friday,11:30-12:30,NC02
+Tut-MAC,Jishu Das,Division 7-Batch 1,Thursday,10:30-11:30,NC03
+Tut-MAC,Aman Jhinga,Division 7-Batch 2,Friday,10:30-11:30,NC03
+Tut-MAC,Neeta Shinde,Division 7-Batch 3,Saturday,12:30-01:30,NC03
+Tut-MAC,Neeta Shinde,Division 7-Batch 3,Saturday,01:30-02:30,NC03
+Tut-MAC,Ahilya Dhere,Division 7-Batch 4,Friday,11:30-12:30,NC03
+Tut-MAC,Yogita Mahatekar,Division 8-Batch 1,Thursday,10:30-11:30,NC04
+Tut-MAC,Neeta Shinde,Division 8-Batch 2,Friday,10:30-11:30,NC04
+Tut-MAC,Jishu Das,Division 8-Batch 3,Saturday,12:30-01:30,NC04
+Tut-MAC,Jishu Das,Division 8-Batch 3,Saturday,01:30-02:30,NC04
+Tut-MAC,Aman Jhinga,Division 8-Batch 4,Friday,11:30-12:30,NC04
+Tut-MAC,Deepak Bakal,Division 9-Batch 1,Thursday,10:30-11:30,NC08
+Tut-MAC,Yogita Mahatekar,Division 9-Batch 2,Friday,10:30-11:30,NC08
+Tut-MAC,Aman Jhinga,Division 9-Batch 3,Saturday,12:30-01:30,NC08
+Tut-MAC,Aman Jhinga,Division 9-Batch 3,Saturday,01:30-02:30,NC08
+Tut-MAC,Neeta Shinde,Division 9-Batch 4,Friday,11:30-12:30,NC08
+Tut-Linear Algebra,Sohan Barkale,Division 1-Batch 1,Tuesday,09:30-10:30,NC08
+Tut-Linear Algebra,Rashmi Kulkarni,Division 1-Batch 2,Friday,02:30-03:30,NC08
+Tut-Linear Algebra,Sohan Barkale,Division 1-Batch 3,Monday,03:30-04:30,NC08
+Tut-Linear Algebra,Sohan Barkale,Division 1-Batch 4,Thursday,03:30-04:30,NC08
+Tut-Linear Algebra,Rashmi Kulkarni,Division 2-Batch 1,Tuesday,09:30-10:30,NC11
+Tut-Linear Algebra,Sohan Barkale,Division 2-Batch 2,Friday,02:30-03:30,NC11
+Tut-Linear Algebra,Rashmi Kulkarni,Division 2-Batch 3,Monday,03:30-04:30,NC11
+Tut-Linear Algebra,Rashmi Kulkarni,Division 2-Batch 4,Thursday,03:30-04:30,NC12
+Tut-Linear Algebra,Deepak Bakal,Division 3-Batch 1,Tuesday,09:30-10:30,NC12
+Tut-Linear Algebra,Jishu Das,Division 3-Batch 2,Friday,02:30-03:30,NC12
+Tut-Linear Algebra,Deepak Bakal,Division 3-Batch 3,Monday,03:30-04:30,NC12
+Tut-Linear Algebra,Deepak Bakal,Division 3-Batch 4,Thursday,03:30-04:30,NC13
+Tut-Linear Algebra,Jishu Das,Division 4-Batch 1,Tuesday,09:30-10:30,NC13
+Tut-Linear Algebra,Deepak Bakal,Division 4-Batch 2,Friday,02:30-03:30,NC13
+Tut-Linear Algebra,Jishu Das,Division 4-Batch 3,Monday,03:30-04:30,NC13
+Tut-Linear Algebra,Jishu Das,Division 4-Batch 4,Saturday,03:30-04:30,NC13
+Tut-Linear Algebra,Rashmi Kulkarni,Division 5-Batch 1,Thursday,10:30-11:30,NC11
+Tut-Linear Algebra,Rashmi Kulkarni,Division 5-Batch 2,Friday,10:30-11:30,NC11
+Tut-Linear Algebra,Sohan Barkale,Division 5-Batch 3,Saturday,12:30-01:30,NC11
+Tut-Linear Algebra,Sohan Barkale,Division 5-Batch 3,Saturday,01:30-02:30,NC11
+Tut-Linear Algebra,Deepak Bakal,Division 5-Batch 4,Friday,11:30-12:30,NC11
+Tut-Linear Algebra,Deepak Bakal,Division 6-Batch 1,Wednesday,08:30-09:30,NC12
+Tut-Linear Algebra,Sohan Barkale,Division 6-Batch 2,Wednesday,08:30-09:30,NC11
+Tut-Linear Algebra,Rashmi Kulkarni,Division 6-Batch 3,Saturday,12:30-01:30,NC12
+Tut-Linear Algebra,Rashmi Kulkarni,Division 6-Batch 3,Saturday,01:30-02:30,NC12
+Tut-Linear Algebra,Rashmi Kulkarni,Division 6-Batch 4,Friday,11:30-12:30,NC12
+Tut-Linear Algebra,Deepak Bakal,Division 7-Batch 1,Thursday,12:30-01:30,NC11
+Tut-Linear Algebra,Deepak Bakal,Division 7-Batch 2,Friday,10:30-11:30,NC13
+Tut-Linear Algebra,Sohan Barkale,Division 7-Batch 3,Thursday,12:30-01:30,NC12
+Tut-Linear Algebra,Sohan Barkale,Division 7-Batch 4,Friday,11:30-12:30,NC13
