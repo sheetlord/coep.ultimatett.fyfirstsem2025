@@ -9,55 +9,119 @@
 <body>
     <div class="container">
         <h1>Ultimate Timetable Viewer 🚀</h1>
-        
-        <div class="controls">
-            <div class="control-group">
-                <label for="mode-select">Select View Mode:</label>
-                <select id="mode-select">
-                    <option value="">-- Select Mode --</option>
-                    <option value="day">Day View</option>
-                    <option value="classroom">Classroom View</option>
-                    <option value="subject">Subject View</option>
-                </select>
-            </div>
 
-            <div id="day-selector-container" class="control-group" style="display:none;">
-                <label for="day-select">Select a Day:</label>
-                <select id="day-select">
-                    <option value="">-- Choose Day --</option>
-                    {% for day in days %}
-                        <option value="{{ day }}">{{ day }}</option>
-                    {% endfor %}
-                </select>
-            </div>
+        <div class="master-controls">
+            <button id="btn-mode-live" class="master-btn active">Live Schedule</button>
+            <button id="btn-mode-advanced" class="master-btn">Advanced View</button>
+        </div>
 
-            <div id="classroom-selector-container" class="control-group" style="display:none;">
-                <label for="classroom-select">Select a Classroom:</label>
-                <select id="classroom-select">
-                    <option value="">-- Choose Classroom --</option>
-                    {% for room in rooms %}
-                        <option value="{{ room }}">{{ room }}</option>
-                    {% endfor %}
-                </select>
-            </div>
+        <div id="live-schedule-view">
+            <div class="controls">
+                <div id="day-selector-container" class="control-group">
+                    <label for="day-select">Select a Day:</label>
+                    <select id="day-select">
+                        <option value="">-- Choose Day --</option>
+                        {% for day in days %}
+                            <option value="{{ day }}">{{ day }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div id="time-selector-container" class="control-group">
+                    <label for="time-select">Select a Time Slot:</label>
+                    <select id="time-select">
+                        <option value="">-- Choose Time --</option>
+                        {% for slot in time_slots %}
+                            <option value="{{ slot }}">{{ slot }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
 
-            <div id="subject-selector-container" class="control-group" style="display:none;">
-                <label for="subject-select">Select a Subject:</label>
-                <select id="subject-select">
-                    <option value="">-- Choose Subject --</option>
-                    {% for subject in subjects %}
-                        <option value="{{ subject }}">{{ subject }}</option>
-                    {% endfor %}
-                </select>
+                <div class="control-group">
+                    <button id="show-live-btn">Show Schedule</button>
+                </div>
             </div>
             
-            <div class="control-group">
-                 <button id="show-schedule-btn">Show Schedule</button>
-            </div>
+            <div id="live-schedule-display"></div>
         </div>
-        
-        <div id="timetable-display"></div>
-        
+
+        <div id="advanced-view" style="display: none;">
+            <div class="controls">
+                <div class="control-group">
+                    <label for="mode-select">Select View Mode:</label>
+                    <select id="mode-select">
+                        <option value="">-- Select Mode --</option>
+                        <option value="day">Day View</option>
+                        <option value="classroom">Classroom View</option>
+                        <option value="subject">Subject View</option>
+                        <option value="labs">LABS View</option>
+                        <option value="teacher">Teacher View</option>
+                    </select>
+                </div>
+
+                <div id="advanced-day-selector-container" class="control-group" style="display:none;">
+                    <label for="advanced-day-select">Select a Day:</label>
+                    <select id="advanced-day-select">
+                        <option value="">-- Choose Day --</option>
+                        {% for day in days %}
+                            <option value="{{ day }}">{{ day }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div id="classroom-selector-container" class="control-group" style="display:none;">
+                    <label for="classroom-select">Select a Classroom:</label>
+                    <select id="classroom-select">
+                        <option value="">-- Choose Classroom --</option>
+                        {% for room in rooms %}
+                            <option value="{{ room }}">{{ room }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div id="subject-selector-container" class="control-group" style="display:none;">
+                    <label for="subject-select">Select a Subject:</label>
+                    <select id="subject-select">
+                        <option value="">-- Choose Subject --</option>
+                        {% for subject in subjects %}
+                            <option value="{{ subject }}">{{ subject }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div id="teacher-selector-container" class="control-group" style="display:none;">
+                    <label for="teacher-select">Select a Teacher:</label>
+                    <select id="teacher-select">
+                        <option value="">-- Choose Teacher --</option>
+                        {% for teacher in teachers %}
+                            <option value="{{ teacher }}">{{ teacher }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div id="lab-subject-selector-container" class="control-group" style="display:none;">
+                    <label for="lab-subject-select">Select a Lab Subject:</label>
+                    <select id="lab-subject-select">
+                        <option value="">-- Choose Lab Subject --</option>
+                        {% for lab_sub in lab_subjects %}
+                            <option value="{{ lab_sub }}">{{ lab_sub }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div id="button-container" class="control-group">
+                     <button id="show-schedule-btn">Show Schedule</button>
+                </div>
+            </div>
+            
+            <div id="timetable-display"></div>
+        </div>
+
+
+        <div id="table-nav" style="display: none;">
+            <button id="btn-prev">&lt; Previous</button>
+            <button id="btn-next">Next &gt;</button>
+        </div>
     </div>
 
     <footer>

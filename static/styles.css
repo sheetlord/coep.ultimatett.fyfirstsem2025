@@ -1,4 +1,4 @@
-/* static/styles.css */
+/* static/styles.css (Final Version with Master Modes) */
 
 /* --- General & Container Styles --- */
 body {
@@ -15,35 +15,87 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     width: 95%;
-    max-width: 1400px; /* Increased max-width for wider timetables */
+    max-width: 1400px;
     margin: 1rem auto;
     text-align: center;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #2c3e50;
     margin-top: 0;
 }
 
-h2 {
+h2, h3 {
     text-align: left;
     margin-bottom: 1.5rem;
 }
 
-/* --- Controls (Dropdown & Button) --- */
+h3 {
+    font-size: 1.2em;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+/* --- NEW MASTER MODE BUTTONS --- */
+.master-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 1.5rem;
+}
+
+.master-btn {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f4f7f6;
+    color: #7f8c8d;
+    transition: all 0.2s ease-in-out;
+}
+
+.master-btn.active {
+    background-color: #3498db;
+    color: white;
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.4);
+}
+
+.master-btn:not(.active):hover {
+    background-color: #e9ecef;
+}
+
+/* --- Controls (Dropdowns & Button) --- */
 .controls {
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px; /* Adds space between items */
+    align-items: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.control-group label {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #7f8c8d;
 }
 
 select {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 250px; /* Gave it a bit more width */
+    width: 250px;
     font-size: 16px;
 }
 
@@ -55,7 +107,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.2s; /* Smooth hover effect */
+    transition: background-color 0.2s;
 }
 
 button:hover {
@@ -63,9 +115,18 @@ button:hover {
 }
 
 /* --- Timetable Display & Messages --- */
+/* These are now for the ADVANCED view */
 #timetable-display {
     margin-top: 1.5rem;
-    overflow-x: auto; /* Allows horizontal scrolling on small screens */
+    overflow-x: auto; /* Reverted to auto, JS will control this */
+    position: relative;
+    width: 100%;
+}
+
+/* This is for the NEW LIVE view */
+#live-schedule-display {
+    margin-top: 1.5rem;
+    width: 100%;
 }
 
 .error { color: #e74c3c; font-weight: bold; }
@@ -76,22 +137,24 @@ button:hover {
 .timetable {
     width: 100%;
     border-collapse: collapse;
-    min-width: 900px; /* Prevents squishing on medium screens */
+    min-width: 900px;
+    /* Added transition for smooth sliding */
+    transform: translateX(0);
+    transition: transform 0.4s ease-in-out;
 }
 
 .timetable th, .timetable td {
     border: 1px solid #bdc3c7;
     padding: 12px;
     text-align: center;
-    vertical-align: middle; /* Centered content vertically */
-    height: 70px; /* Gives cells a uniform height */
+    vertical-align: middle;
 }
 
 .timetable thead th {
     background-color: #34495e;
     color: white;
     font-weight: bold;
-    position: sticky; /* Makes header stick when scrolling vertically */
+    position: sticky;
     top: 0;
 }
 
@@ -101,30 +164,153 @@ button:hover {
     white-space: nowrap;
 }
 
-/* Style for cells containing a class */
-.timetable td .class-subject {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-    color: #2c3e50;
+.timetable .free-slot {
+    color: #95a5a6;
+    font-size: 0.9em;
+    background-color: #fafafa;
 }
 
-.timetable td .class-division {
+/* --- Lab List Styles (Used by Live View & Day View) --- */
+.lab-list-container {
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.lab-timeslot-header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #34495e;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.lab-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.lab-list-item {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-left: 5px solid #bdc3c7;
+}
+
+.lab-list-item .lab-subject {
+    font-weight: bold;
+    color: #2c3e50;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.lab-list-item .lab-details {
     font-size: 0.9em;
     color: #7f8c8d;
 }
 
-/* NEW: Style for free slots */
-.timetable .free-slot {
-    color: #95a5a6;
-    font-size: 0.9em;
-    font-style: italic;
-    background-color: #fafafa;
+/* --- Lab List Color Styles (7 Colors) --- */
+.lab-list-item.time-color-0 { border-left-color: #E74C3C; } /* Red */
+.lab-timeslot-header.time-color-0 { color: #E74C3C; }
+.lab-list-item.time-color-1 { border-left-color: #3498DB; } /* Blue */
+.lab-timeslot-header.time-color-1 { color: #3498DB; }
+.lab-list-item.time-color-2 { border-left-color: #2ECC71; } /* Green */
+.lab-timeslot-header.time-color-2 { color: #2ECC71; }
+.lab-list-item.time-color-3 { border-left-color: #F39C12; } /* Orange */
+.lab-timeslot-header.time-color-3 { color: #F39C12; }
+.lab-list-item.time-color-4 { border-left-color: #9B59B6; } /* Purple */
+.lab-timeslot-header.time-color-4 { color: #9B59B6; }
+.lab-list-item.time-color-5 { border-left-color: #1ABC9C; } /* Teal */
+.lab-timeslot-header.time-color-5 { color: #1ABC9C; }
+.lab-list-item.time-color-6 { border-left-color: #E67E22; } /* Dark Orange */
+.lab-timeslot-header.time-color-6 { color: #E67E22; }
+
+
+/* --- Table Pagination Styles --- */
+#table-nav {
+    display: flex; /* Will be shown/hidden by JS */
+    justify-content: space-between;
+    margin-top: 1rem;
 }
+
+#table-nav button {
+    width: 120px;
+}
+
+#table-nav button:disabled {
+    background-color: #bdc3c7; /* Gray out disabled buttons */
+    cursor: not-allowed;
+}
+
 
 /* --- Footer --- */
 footer {
     text-align: center;
     margin-top: 2rem;
     color: #7f8c8d;
+}
+
+/* --- REAL-TIME HIGHLIGHTING STYLES (for Advanced View) --- */
+
+/* Highlights the full row for the current time */
+.timetable tr.active-row > th.time-slot {
+    background-color: #f39c12;
+    color: white;
+}
+
+/* Highlights the full column for the current day */
+.timetable tr > .active-day {
+    background-color: #fdf3e1; /* Light orange */
+}
+
+/* Highlights the *exact* current cell */
+.timetable tr.active-row > td.active-day {
+    background-color: #f39c12; /* Bright orange */
+    color: white;
+    font-weight: bold;
+    border: 2px solid #c0392b; /* Dark red border */
+}
+/* Also highlight the header cell for the current day/time */
+.timetable thead tr > th.active-day {
+     background-color: #e67e22; /* Darker orange for header */
+}
+
+
+/* Highlights the lab list header for the current time */
+.lab-timeslot-header.active-lab-header {
+    color: #f39c12 !important;
+    border-bottom-color: #f39c12;
+    font-weight: bold;
+}
+
+/* Highlights the lab list items for the current time */
+.lab-list.active-lab-list .lab-list-item {
+    border-left-color: #f39c12 !important;
+    background-color: #fdf3e1;
+}
+
+/* --- STYLES for Subject/Lab View multi-class cells --- */
+
+.multi-class-container {
+    display: flex;
+    flex-wrap: wrap;         /* Allows items to wrap (e.g., 2x2) */
+    gap: 5px;                /* Adds spacing between the items */
+    justify-content: center; /* Centers items if they don't fill the space */
+    align-items: stretch;    /* Makes all items in a row the same height */
+    padding: 5px 0;          /* Adds a little vertical padding */
+}
+
+.multi-class-item {
+    flex-grow: 1;            /* Allows items to grow */
+    flex-basis: 120px;       /* Each item will be at least 120px wide */
+    padding: 6px;
+    background-color: #f8f9fa; /* Very light gray background */
+    border: 1px solid #e9ecef; /* Light border */
+    border-radius: 4px;
+    font-size: 0.85em;       /* Make text slightly smaller */
+    line-height: 1.4;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
 }
