@@ -1,4 +1,4 @@
-/* static/styles.css (Final Version with Master Modes) */
+/* static/styles.css (Final Version with All Fixes) */
 
 /* --- General & Container Styles --- */
 body {
@@ -36,7 +36,7 @@ h3 {
     padding-bottom: 10px;
 }
 
-/* --- NEW MASTER MODE BUTTONS --- */
+/* --- MASTER MODE BUTTONS --- */
 .master-controls {
     display: flex;
     justify-content: center;
@@ -115,15 +115,13 @@ button:hover {
 }
 
 /* --- Timetable Display & Messages --- */
-/* These are now for the ADVANCED view */
 #timetable-display {
     margin-top: 1.5rem;
-    overflow-x: auto; /* Reverted to auto, JS will control this */
+    overflow-x: auto; 
     position: relative;
     width: 100%;
 }
 
-/* This is for the NEW LIVE view */
 #live-schedule-display {
     margin-top: 1.5rem;
     width: 100%;
@@ -137,15 +135,19 @@ button:hover {
 .timetable {
     width: 100%;
     border-collapse: collapse;
-    min-width: 900px;
-    /* Added transition for smooth sliding */
     transform: translateX(0);
     transition: transform 0.4s ease-in-out;
 }
 
+/* Only the Day View grid is forced to be wide */
+.timetable.day-view-grid {
+    min-width: 900px;
+}
+
+
 .timetable th, .timetable td {
     border: 1px solid #bdc3c7;
-    padding: 12px;
+    padding: 12px; /* <--- THIS IS FIX 2 (see @media block below) */
     text-align: center;
     vertical-align: middle;
 }
@@ -231,7 +233,7 @@ button:hover {
 
 /* --- Table Pagination Styles --- */
 #table-nav {
-    display: flex; /* Will be shown/hidden by JS */
+    display: flex; 
     justify-content: space-between;
     margin-top: 1rem;
 }
@@ -241,7 +243,7 @@ button:hover {
 }
 
 #table-nav button:disabled {
-    background-color: #bdc3c7; /* Gray out disabled buttons */
+    background-color: #bdc3c7; 
     cursor: not-allowed;
 }
 
@@ -255,38 +257,34 @@ footer {
 
 /* --- REAL-TIME HIGHLIGHTING STYLES (for Advanced View) --- */
 
-/* Highlights the full row for the current time */
 .timetable tr.active-row > th.time-slot {
     background-color: #f39c12;
     color: white;
 }
 
-/* Highlights the full column for the current day */
 .timetable tr > .active-day {
-    background-color: #fdf3e1; /* Light orange */
+    background-color: #fdf3e1; 
 }
 
-/* Highlights the *exact* current cell */
 .timetable tr.active-row > td.active-day {
-    background-color: #f39c12; /* Bright orange */
+    background-color: #f39c12; 
     color: white;
     font-weight: bold;
-    border: 2px solid #c0392b; /* Dark red border */
+    border: 2px solid #c0392b; 
 }
-/* Also highlight the header cell for the current day/time */
 .timetable thead tr > th.active-day {
-     background-color: #e67e22; /* Darker orange for header */
+     background-color: #e67e22; 
 }
 
 
-/* Highlights the lab list header for the current time */
 .lab-timeslot-header.active-lab-header {
     color: #f39c12 !important;
+    /* --- THIS IS FIX 1 (TYPO) --- */
     border-bottom-color: #f39c12;
+    /* --- END OF FIX 1 --- */
     font-weight: bold;
 }
 
-/* Highlights the lab list items for the current time */
 .lab-list.active-lab-list .lab-list-item {
     border-left-color: #f39c12 !important;
     background-color: #fdf3e1;
@@ -296,21 +294,59 @@ footer {
 
 .multi-class-container {
     display: flex;
-    flex-wrap: wrap;         /* Allows items to wrap (e.g., 2x2) */
-    gap: 5px;                /* Adds spacing between the items */
-    justify-content: center; /* Centers items if they don't fill the space */
-    align-items: stretch;    /* Makes all items in a row the same height */
-    padding: 5px 0;          /* Adds a little vertical padding */
+    flex-wrap: wrap;         
+    gap: 5px;                
+    justify-content: center; 
+    align-items: stretch;    
+    padding: 5px 0;          
 }
 
 .multi-class-item {
-    flex-grow: 1;            /* Allows items to grow */
-    flex-basis: 120px;       /* Each item will be at least 120px wide */
+    flex-grow: 1;            
+    flex-basis: 120px;       /* <--- THIS IS FIX 3 (see @media block below) */
     padding: 6px;
-    background-color: #f8f9fa; /* Very light gray background */
-    border: 1px solid #e9ecef; /* Light border */
+    background-color: #f8f9fa; 
+    border: 1px solid #e9ecef; 
     border-radius: 4px;
-    font-size: 0.85em;       /* Make text slightly smaller */
+    font-size: 0.85em;       
     line-height: 1.4;
     box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+/* --- NEW: MOBILE RESPONSIVE FIXES (2 & 3) --- */
+@media (max-width: 768px) {
+    /* Make controls smaller to fit */
+    select, button {
+        font-size: 14px;
+        padding: 8px;
+        width: 100%; /* Make controls full-width */
+    }
+    .controls {
+        gap: 15px;
+    }
+    .master-btn {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+    .container {
+        padding: 1rem;
+    }
+
+    /* --- THIS IS FIX 2 --- */
+    /* Reduce padding and font size on non-scrolling tables */
+    .timetable:not(.day-view-grid) th,
+    .timetable:not(.day-view-grid) td {
+        padding: 6px;
+        font-size: 0.8em;
+    }
+    /* --- END OF FIX 2 --- */
+
+    /* --- THIS IS FIX 3 --- */
+    /* Make multi-class items smaller */
+    .multi-class-item {
+        flex-basis: 80px; /* Shrink basis */
+        font-size: 0.75em;
+        padding: 4px;
+    }
+    /* --- END OF FIX 3 --- */
 }

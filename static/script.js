@@ -1,4 +1,4 @@
-// static/script.js (Final Version with Master Modes & Bug Fixes)
+// static/script.js (Final Version with Mobile UI Fix)
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -204,11 +204,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (data.grid_type === 'hybrid_day_view') {
                 advDisplayDiv.innerHTML = buildHybridDayViewHTML(data);
+                // --- THIS IS THE FIX ---
+                // ONLY run pagination for the Day View grid
+                setupPagination(); 
+                // --- END OF FIX ---
             } else {
                 advDisplayDiv.innerHTML = buildGridHTML(data);
+                // We do NOT run setupPagination() here
             }
             
-            setupPagination();
             highlightAdvancedView(); 
 
         } catch (error) {
@@ -229,14 +233,17 @@ document.addEventListener('DOMContentLoaded', () => {
             return `<tr><th class="time-slot">${row}</th>${cells}</tr>`;
         }).join('');
         
+        // --- THIS IS THE FIX ---
+        // Added the 'day-view-grid' class to the table
         const gridHTML = `
             <h3>Regular Classrooms</h3>
             <div id="table-nav-wrapper"></div> 
-            <table class="timetable">
+            <table class="timetable day-view-grid">
                 <thead><tr><th>Time</th>${gridHeaders}</tr></thead>
                 <tbody>${gridBodyRows}</tbody>
             </table>
         `;
+        // --- END OF FIX ---
 
         let listHTML = '<h3>Scheduled Labs</h3>';
         const scheduledLabsList = data.scheduled_labs || [];
@@ -316,7 +323,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 6. PAGINATION LOGIC (Shared) ---
     
     function setupPagination() {
-        currentTable = advDisplayDiv.querySelector('table.timetable');
+        // --- THIS IS THE FIX ---
+        // Find the 'day-view-grid' table specifically
+        currentTable = advDisplayDiv.querySelector('table.timetable.day-view-grid');
+        // --- END OF FIX ---
+        
         const navWrapper = advDisplayDiv.querySelector('#table-nav-wrapper'); 
         
         if (!currentTable || !navWrapper) {
@@ -479,13 +490,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (currentSlotFound) {
                 fetchLiveSchedule();
             } else {
-                // --- TYPO FIX 1 ---
                 liveDisplayDiv.innerHTML = `<p class="placeholder">No classes Going on right now, try manually</p>`;
             }
 
         } catch(e) {
             console.error("Failed to initialize live view:", e);
-            // --- TYPO FIX 2 & 3 ---
             liveDisplayDiv.innerHTML = `<p class="error">No classes Going on right now, try manually</p>`;
         }
     };
